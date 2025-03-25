@@ -1,43 +1,96 @@
-import { Tabs } from 'expo-router';
-import React from 'react';
-import { Platform } from 'react-native';
+import { Tabs } from "expo-router";
+import React from "react";
+import { Dimensions, View } from "react-native";
+import { AntDesign, FontAwesome, SimpleLineIcons } from "@expo/vector-icons";
+import { Colors } from "@/constants/Colors";
 
-import { HapticTab } from '@/components/HapticTab';
-import { IconSymbol } from '@/components/ui/IconSymbol';
-import TabBarBackground from '@/components/ui/TabBarBackground';
-import { Colors } from '@/constants/Colors';
-import { useColorScheme } from '@/hooks/useColorScheme';
-
+const { width } = Dimensions.get("window");
+const BASE_ICON_SIZE = width * 0.05;
 export default function TabLayout() {
-  const colorScheme = useColorScheme();
-
   return (
     <Tabs
       screenOptions={{
-        tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tint,
-        headerShown: false,
-        tabBarButton: HapticTab,
-        tabBarBackground: TabBarBackground,
-        tabBarStyle: Platform.select({
-          ios: {
-            // Use a transparent background on iOS to show the blur effect
-            position: 'absolute',
-          },
-          default: {},
-        }),
-      }}>
+        tabBarStyle: {
+          backgroundColor: Colors.gray,
+          position: "absolute",
+          bottom: 35,
+          height: 65,
+          alignItems: "center",
+          borderRadius: 50,
+          marginHorizontal: 100,
+          paddingHorizontal: 10,
+          paddingVertical: 8,
+          paddingTop: 12,
+          elevation: 5,
+          shadowColor: "#000",
+          shadowOpacity: 0.1,
+          shadowOffset: { width: 0, height: 5 },
+          shadowRadius: 10,
+        },
+        tabBarShowLabel: false,
+        tabBarInactiveTintColor: "#bbb",
+        tabBarActiveTintColor: "#fff",
+      }}
+    >
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Home',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
+          tabBarIcon: ({ color, focused }) => (
+            <View
+              style={{
+                width: 50,
+                height: 50,
+                borderRadius: 30,
+                alignItems: "center",
+                justifyContent: "center",
+                backgroundColor: focused ? Colors.tintColor : "transparent",
+              }}
+            >
+              <SimpleLineIcons
+                name="pie-chart"
+                size={BASE_ICON_SIZE}
+                color={color}
+              />
+            </View>
+          ),
         }}
       />
       <Tabs.Screen
-        name="explore"
+        name="transactions"
         options={{
-          title: 'Explore',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          tabBarIcon: ({ color, focused }) => (
+            <View
+              style={{
+                width: 50,
+                height: 50,
+                borderRadius: 30,
+                alignItems: "center",
+                justifyContent: "center",
+                backgroundColor: focused ? Colors.tintColor : "transparent",
+              }}
+            >
+              <AntDesign name="swap" size={BASE_ICON_SIZE} color={color} />
+            </View>
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="profile"
+        options={{
+          tabBarIcon: ({ color, focused }) => (
+            <View
+              style={{
+                width: 50,
+                height: 50,
+                borderRadius: 30,
+                alignItems: "center",
+                justifyContent: "center",
+                backgroundColor: focused ? Colors.tintColor : "transparent",
+              }}
+            >
+              <FontAwesome name="user-o" size={BASE_ICON_SIZE} color={color} />
+            </View>
+          ),
         }}
       />
     </Tabs>

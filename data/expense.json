@@ -1,0 +1,142 @@
+[
+  {
+    "id": "1",
+    "name": "Housing",
+    "amount": "2000",
+    "date": "2023-09-01",
+    "percentage": "50"
+  },
+  {
+    "id": "2",
+    "name": "Groceries",
+    "amount": "300",
+    "date": "2023-05-05",
+    "percentage": "30"
+  },
+  {
+    "id": "3",
+    "name": "Utilities",
+    "amount": "150",
+    "date": "2023-10-15",
+    "percentage": "15"
+  },
+  {
+    "id": "4",
+    "name": "Transportation",
+    "amount": "250",
+    "date": "2023-08-22",
+    "percentage": "20"
+  },
+  {
+    "id": "5",
+    "name": "Entertainment",
+    "amount": "100",
+    "date": "2023-07-10",
+    "percentage": "10"
+  },
+  {
+    "id": "6",
+    "name": "Dining Out",
+    "amount": "120",
+    "date": "2023-06-03",
+    "percentage": "12"
+  },
+  {
+    "id": "7",
+    "name": "Shopping",
+    "amount": "400",
+    "date": "2023-11-29",
+    "percentage": "40"
+  },
+  {
+    "id": "8",
+    "name": "Health",
+    "amount": "80",
+    "date": "2023-04-18",
+    "percentage": "8"
+  },
+  {
+    "id": "9",
+    "name": "Education",
+    "amount": "500",
+    "date": "2023-03-01",
+    "percentage": "55"
+  },
+  {
+    "id": "10",
+    "name": "Personal Care",
+    "amount": "60",
+    "date": "2023-12-07",
+    "percentage": "6"
+  },
+  {
+    "id": "11",
+    "name": "Travel",
+    "amount": "700",
+    "date": "2023-02-14",
+    "percentage": "70"
+  },
+  {
+    "id": "12",
+    "name": "Gifts",
+    "amount": "90",
+    "date": "2023-01-20",
+    "percentage": "9"
+  },
+  {
+    "id": "13",
+    "name": "Savings",
+    "amount": "350",
+    "date": "2023-09-25",
+    "percentage": "35"
+  },
+  {
+    "id": "14",
+    "name": "Investments",
+    "amount": "600",
+    "date": "2023-08-08",
+    "percentage": "60"
+  },
+  {
+    "id": "15",
+    "name": "Debt Payments",
+    "amount": "450",
+    "date": "2023-07-01",
+    "percentage": "45"
+  },
+  {
+    "id": "16",
+    "name": "Miscellaneous",
+    "amount": "75",
+    "date": "2023-06-15",
+    "percentage": "7"
+  },
+  {
+    "id": "17",
+    "name": "Home Improvement",
+    "amount": "1200",
+    "date": "2023-11-03",
+    "percentage": "48"
+  },
+  {
+    "id": "18",
+    "name": "Car Maintenance",
+    "amount": "220",
+    "date": "2023-10-20",
+    "percentage": "22"
+  },
+  {
+    "id": "19",
+    "name": "Pet Care",
+    "amount": "50",
+    "date": "2023-09-12",
+    "percentage": "5"
+  },
+  {
+    "id": "20",
+    "name": "Clothing",
+    "amount": "180",
+    "date": "2023-08-05",
+    "percentage": "18"
+  }
+]

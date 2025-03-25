@@ -1,0 +1,156 @@
+[
+  {
+    "id": "1",
+    "name": "Coffee Shop",
+    "amount": "7.50",
+    "date": "2023-12-16",
+    "percentage": "1"
+  },
+  {
+    "id": "2",
+    "name": "Lunch with colleagues",
+    "amount": "25.00",
+    "date": "2023-12-15",
+    "percentage": "3"
+  },
+  {
+    "id": "3",
+    "name": "Grocery Shopping",
+    "amount": "85.20",
+    "date": "2023-12-14",
+    "percentage": "10"
+  },
+  {
+    "id": "4",
+    "name": "Movie Tickets",
+    "amount": "30.00",
+    "date": "2023-12-13",
+    "percentage": "4"
+  },
+  {
+    "id": "5",
+    "name": "Dinner at Restaurant",
+    "amount": "65.50",
+    "date": "2023-12-12",
+    "percentage": "8"
+  },
+  {
+    "id": "6",
+    "name": "Gas for Car",
+    "amount": "42.80",
+    "date": "2023-12-11",
+    "percentage": "5"
+  },
+  {
+    "id": "7",
+    "name": "Online Shopping - Clothes",
+    "amount": "120.00",
+    "date": "2023-12-10",
+    "percentage": "15"
+  },
+  {
+    "id": "8",
+    "name": "Books from Bookstore",
+    "amount": "28.99",
+    "date": "2023-12-09",
+    "percentage": "3"
+  },
+  {
+    "id": "9",
+    "name": "Public Transportation",
+    "amount": "10.00",
+    "date": "2023-12-08",
+    "percentage": "1"
+  },
+  {
+    "id": "10",
+    "name": "Snacks and Drinks",
+    "amount": "15.75",
+    "date": "2023-12-07",
+    "percentage": "2"
+  },
+  {
+    "id": "11",
+    "name": "Haircut",
+    "amount": "35.00",
+    "date": "2023-12-06",
+    "percentage": "4"
+  },
+  {
+    "id": "12",
+    "name": "Parking Fee",
+    "amount": "5.00",
+    "date": "2023-12-05",
+    "percentage": "1"
+  },
+  {
+    "id": "13",
+    "name": "Streaming Service Subscription",
+    "amount": "12.99",
+    "date": "2023-12-04",
+    "percentage": "2"
+  },
+  {
+    "id": "14",
+    "name": "Gift for Friend",
+    "amount": "38.50",
+    "date": "2023-12-03",
+    "percentage": "5"
+  },
+  {
+    "id": "15",
+    "name": "Household Supplies",
+    "amount": "45.00",
+    "date": "2023-12-02",
+    "percentage": "6"
+  },
+  {
+    "id": "16",
+    "name": "Takeout Food",
+    "amount": "32.25",
+    "date": "2023-12-01",
+    "percentage": "4"
+  },
+  {
+    "id": "17",
+    "name": "Gym Membership",
+    "amount": "50.00",
+    "date": "2023-11-30",
+    "percentage": "6"
+  },
+  {
+    "id": "18",
+    "name": "Concert Tickets",
+    "amount": "75.00",
+    "date": "2023-11-29",
+    "percentage": "9"
+  },
+  {
+    "id": "19",
+    "name": "Pharmacy - Medicine",
+    "amount": "22.70",
+    "date": "2023-11-28",
+    "percentage": "3"
+  },
+  {
+    "id": "20",
+    "name": "Donation to Charity",
+    "amount": "20.00",
+    "date": "2023-11-27",
+    "percentage": "2"
+  },
+  {
+    "id": "21",
+    "name": "Car Wash",
+    "amount": "15.00",
+    "date": "2023-11-26",
+    "percentage": "2"
+  },
+  {
+    "id": "22",
+    "name": "Weekend Trip - Hotel",
+    "amount": "250.00",
+    "date": "2023-11-25",
+    "percentage": "30"
+  }
+]

@@ -1,16 +1,15 @@
-import { NetflixIcon } from "@/constants/icon";
 import React from "react";
 import { View, Text } from "react-native";
 
 // Define the props interface
-interface IndexProps {
+interface ProfileProps {
   title: string;
 }
 
-export default function Index({ title }: IndexProps) {
+export default function Profile({ title }: ProfileProps) {
   return (
     <View>
-      <Text>Dashboard</Text>
+      <Text>Profile</Text>
     </View>
   );
 }
