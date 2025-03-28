@@ -16,16 +16,12 @@ export default function TabLayout() {
           bottom: 35,
           height: 65,
           alignItems: "center",
-          borderRadius: 50,
+          borderRadius: 40,
           marginHorizontal: 100,
           paddingHorizontal: 10,
           paddingVertical: 8,
           paddingTop: 12,
-          elevation: 5,
-          shadowColor: "#000",
-          shadowOpacity: 0.1,
-          shadowOffset: { width: 0, height: 5 },
-          shadowRadius: 10,
+          borderTopWidth: 0,
         },
         tabBarShowLabel: false,
         tabBarInactiveTintColor: "#bbb",
@@ -53,6 +49,7 @@ export default function TabLayout() {
               />
             </View>
           ),
+          headerShown: false,
         }}
       />
       <Tabs.Screen
@@ -72,6 +69,7 @@ export default function TabLayout() {
               <AntDesign name="swap" size={BASE_ICON_SIZE} color={color} />
             </View>
           ),
+          headerShown: false,
         }}
       />
       <Tabs.Screen
@@ -91,6 +89,7 @@ export default function TabLayout() {
               <FontAwesome name="user-o" size={BASE_ICON_SIZE} color={color} />
             </View>
           ),
+          headerShown: false,
         }}
       />
     </Tabs>

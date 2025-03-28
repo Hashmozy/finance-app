@@ -1,15 +1,10 @@
 import React from "react";
 import { View, Text } from "react-native";
 
-// Define the props interface
-interface ProfileProps {
-  title: string;
-}
-
-export default function Profile({ title }: ProfileProps) {
+export default function Profile() {
   return (
-    <View>
-      <Text>Profile</Text>
+    <View className={`flex-1 bg-black justify-center items-center`}>
+      <Text className={`font-semibold text-white`}>Profile</Text>
     </View>
   );
 }
